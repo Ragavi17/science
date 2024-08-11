@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../images/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top:200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    transition: color 0.3s;
+}
+
+.social-icons a.google {
+    color: #DB4437;
+}
+
+.social-icons a.facebook {
+    color: #3b5998;
+}
+
+.social-icons a.twitter {
+    color: #1DA1F2;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
